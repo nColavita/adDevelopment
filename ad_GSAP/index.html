@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Generic Ad GSAP</title>
+	<meta name="ad-size" content="width=300, height=250">
+	<link rel="stylesheet" type="text/css" href="code/style-min.css">
+
+	<!--CDN links for TweenLite, CSSPlugin, and EasePack-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenLite.min.js"></script>
+
+	<script type="text/javascript">
+		var clickTag = console.log(clickTag);
+	</script>	
+</head>
+<body>
+	<div id="container">
+		<div id="bg_1"></div>
+		<div id="bg_2"></div>
+		<div id="copy1" class="copy">Copy One</div>
+		<div id="copy2" class="copy">Copy One-Two</div>
+
+		<div id="copy3" class="copy copy-endframe">Copy Two-One</div>
+		<div id="copy4" class="copy copy-endframe">Copy Two-Two</div>
+		<div id="copy5" class="copy copy-endframe">Copy Two-Three</div>
+
+		<div id="border"></div>
+	
+		<div id="cta">
+			<div id="ctaCopy">CTA</div>
+		</div>
+
+		<a href="javascript:window.open(window.clickTag); void(0);" id="clickScreen"></a>
+		<div id="chromeCover"></div>
+	</div>
+
+	<script src="code/script-min.js"></script>
+</body>
+</html>
